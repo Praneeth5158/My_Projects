@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login form</title>
+        <style>
+            .pass{
+                color:blue; 
+            }
+            .pass:hover{
+                   text-decoration:underline;
+                   cursor:pointer;
+                }
+            .register a{
+                font-style:italic;
+                    text-decoration:underline;
+                    cursor:pointer;
+            }
+            .register a:hover{
+                font-size:20px;
+            }
+                .button{
+                    background-color:orange;
+                    padding:15px;
+                    font-size:15px;
+                    color:white;
+                    border:none;
+                    border-radius:12px;
+                    font-weight:bold;
+
+                }
+                .button:hover{
+                    cursor:pointer;
+                    font-size:20px;
+                }
+                body{
+                    display:flex;
+                    text-align:center;
+                    justify-content:center;
+                    height:100vh;
+                    /* width:1500px; */
+                    background-image:url("i2.gif");
+                    background-repeat:no-repeat;
+                    background-size:cover;
+                    background-position:center;
+                }
+                .login-page{
+                    margin:20px;
+                    padding:50px;
+                    margin-top:100px;
+                    background-image:url("i5.gif");
+                    background-repeat:no-repeat;
+                    background-position:center;
+                    background-size:cover;
+                    border-radius:40px;
+                }
+               
+                .login-page input{
+                    display:flex;
+                }
+                .login-page p{
+                    display:flex;
+                    font-weight:bold;
+                }
+                input::placeholder{
+                    font-style:italic;
+                }
+               
+        </style>
+    </head>
+
+    <body>
+      <div class="login-page">
+        <p style="font-weight:bold;
+        font-style:italic;
+        color:red;
+        font-size:25px;
+        ">Welcome to the front page</p>
+        <p
+        style="font-weight:bold;
+        font-style:italic;
+        color:green;
+        font-size:15px;
+        text-align:center;
+        "
+        >Please Login for more information</p>
+        <p>Enter your username:</p>
+        <input placeholder="UserName">
+        <p>Please Enter your Password :</p>
+        <input placeholder="Enter Password">
+        <p><input type="checkbox" ><label>Remember me</label></p>
+        <a href="forgot pass.html" ><p class="pass">Forgot Password</p>
+</a>
+        <button class="button">Login</button>
+        <p class="register">Are you new for this Portal then
+            <a href="Registration form.html" > Register!</a></p>
+      </div>
+    </body>
+</html>

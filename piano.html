@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Piano project</title>
+        <style>
+            body{
+                display:flex;
+                justify-content:center;
+                padding-top:200px;
+                background-color:orange;
+            }
+            .buttons button{
+                padding:50px;
+                padding-bottom:200px;
+                text-align: center;
+                justify-content:center;
+                align-items:center;
+                background-color:white;
+                border-radius:10px;
+            }
+            .buttons button:hover{
+                background-color:rgb(219, 210, 210);
+                cursor:pointer;
+            }
+            .top-keys{
+                position:relative;
+            }
+            .top-buttons{
+                position:absolute;
+                top:0;
+                left:0;
+                padding-left:15px;
+            }
+            .top-buttons button{
+                padding:8px;
+                width:50px;
+                height:100px;
+                margin-top:3px;
+                margin-left:65px;
+                border-radius:10px;
+                color:white;
+                background-color:black;
+            }
+            .top-buttons button:hover{
+                background-color:rgb(23, 22, 22);
+                cursor:pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-keys">
+            <div class="buttons">
+                <button onclick="playSound('a')">a</button>
+                <button>b</button>
+                <button>c</button>
+                <button>d</button>
+                <button>e</button>
+                <button>f</button>
+                <button>g</button>
+             </div>
+             <div class="top-buttons">
+                <button>a</button>
+                <button>b</button>
+                <button>c</button>
+                <button>d</button>
+                <button>e</button>
+                <button>f</button>
+             </div>
+        </div>
+      
+    </body>
+</html>

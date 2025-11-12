@@ -1,0 +1,92 @@
+
+body{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:url("back.png") no-repeat center center/cover;
+    margin:0;
+    padding:0;
+     }
+header{
+    color:white; 
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing:border-box;
+    width:100%;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    }
+nav{
+    display:flex;
+}
+nav h2{
+    margin:20px;
+    color:white;
+}
+.about:hover,
+.sk:hover,
+.projects:hover{
+    transition:0.5s;
+    font-size:20px;   
+}
+.icons i:hover{
+     transition:0.5s;
+    font-size:40px; 
+}
+.intro{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:red;
+    }
+.intro, p{
+     background:rgba(0,0,0,0.5);
+     padding:10px 15px;
+     border-radius:15px;
+    }
+.mypic img{
+    width:250px;
+    height:300px;
+    object-fit:fill;
+    border-radius:50%;
+    }
+a{
+    text-decoration: none;
+}
+p{
+    color:chartreuse;
+    font-size: 20px;
+    text-align:center;
+    padding:10px 20px;
+    line-height:1.5;
+ }
+ .icons:hover{
+    cursor:pointer;
+ }
+i{
+    padding:20px;
+    font-size:30px;
+    color:white;
+}
+.skillstext{
+    display:flex;
+    flex-direction:column;
+}
+.skills i{
+    font-size:60px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    margin-left:40px;
+}
+.skills{
+    display:flex;
+}
+.skills p{
+        margin-left:40px;
+
+}
